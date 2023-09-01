@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parâmetros da Atividade"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duração (horas):"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira a duração"/>
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Nível de Dificuldade:"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEasy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fácil"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Médio"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxHard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Difícil"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+
+    <Button
+        android:id="@+id/btnConfirmParameters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

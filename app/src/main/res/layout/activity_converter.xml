@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout.converter"
+    android:background="@color/denim"
+    android:orientation="vertical"
+    android:padding="18dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONVERSOR OFICIAL DE DÓLAR PARA REAL"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="VALOR DO DÓLAR ATUAL"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="US $5"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:id="@+id/editTextUserValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/buttonConverter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:layout_gravity="center"
+        android:paddingBottom="15dp"
+        android:text="CONVERTER"
+        />
+
+    <EditText
+        android:id="@+id/editTextConvertido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="VALOR CONVERTIDO" />
+
+</LinearLayout>

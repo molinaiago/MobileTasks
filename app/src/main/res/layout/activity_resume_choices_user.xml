@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duração: "
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewDifficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nível de Dificuldade: "
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewDestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destino: "
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewDepartureDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de Partida: "
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textViewReturnDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de Retorno: "
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"/>
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/layoutBeach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/futebol_areia"
+            android:layout_gravity="center"
+            android:contentDescription="Imagem da atividade na praia"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Futebol de Areia"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/caminhada"
+            android:layout_gravity="center"
+            android:contentDescription="Imagem da atividade na praia"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caminhada"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutAdventure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/escalada"
+            android:layout_gravity="center"
+            android:contentDescription="Imagem da atividade de aventura"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escalada na Montanha"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/trilha"
+            android:layout_gravity="center"
+            android:contentDescription="Imagem da atividade de aventura"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trilha"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutCulture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/museu"
+            android:layout_gravity="center"
+            android:contentDescription="Imagem da atividade cultural"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Museu"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/casas_antigas"
+            android:layout_gravity="center"
+            android:contentDescription="Imagem da atividade cultural"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Casas antigas"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CONFIRMAR"
+        />
+</LinearLayout>
